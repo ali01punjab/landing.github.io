@@ -1,0 +1,124 @@
+body{
+    background-color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+#header{
+    height: 50px;
+    padding: 30px;
+    position:fixed;
+}
+#header #header-img
+{
+    height: 40px;
+    width: 300px;
+}
+#header #nav-bar{
+    margin-left: 750px;
+    margin-right: -5px;
+}
+#header #nav-bar .nav-link{
+    margin-right: 100px;
+    color: black;
+    text-decoration: none;
+}
+#form-container{
+    margin: 0 auto;
+    padding-top:150px;
+}
+#form-container> h2{
+    text-align: center;
+    margin-left: -200px;
+    margin-top: -30px;
+}
+#form-container #form{
+    margin-left: -170px;
+}
+#form-container #form #email{
+    width: 260px;
+    height: 26px;
+    margin-bottom:8px;
+}
+#form-container #form #submit{
+    width: 152px;
+    height: 32px;
+    font-weight: 900;
+    outline: none;
+    background-color: #F1C40F;
+    border: none;
+}
+#features{
+    width: 900px;
+    height: 320px;
+    margin: 100px auto 10px auto;
+}
+i{
+    color: #FF8C00;
+}
+#feature1,#feature2,#feature3{
+    display: flex;
+    margin-top: 50px;
+}
+#feature1 #desc{
+    margin-top: -25px;
+    margin-left: 120px;
+}
+#feature2 #desc{
+    margin-top: -25px;
+    margin-left: 115px;
+}
+#feature3 #desc{
+    margin-top: -25px;
+    margin-left: 106px;
+}
+#desc> p{
+    margin-top: -10px;
+}
+#video{
+    height: 314px;
+    width: 562px;
+    margin-left: 380px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+#card{
+    height: 340px;
+    width: 315px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#card h3{
+    text-align: center;
+    padding: 15px;
+    background-color: #DDDDDD;
+    margin-top: 0px;
+}
+#card h1,p{
+    text-align: center;
+}
+input[type="button"]
+{
+    width: 105px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #F1C40F;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#product-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width:900px)
+{
+    #product-container{
+        display: flex;
+        flex-direction: column;
+    }   
+}
